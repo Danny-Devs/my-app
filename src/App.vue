@@ -1,8 +1,12 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import TheTimeline from './components/TheTimeline.vue';
+</script>
 
 <template>
-  <div>
-    <h1>Hello World</h1>
+  <div class="section">
+    <div class="container">
+      <TheTimeline />
+    </div>
   </div>
 </template>
 
